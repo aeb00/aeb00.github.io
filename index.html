@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fatih Terim - İmparator</title>
+
+  <!-- Google Fonts: Orbitron, Ubuntu, Parisienne -->
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Parisienne&family=Ubuntu&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Ubuntu', sans-serif;
+      background-color: #000000; /* Siyah arka plan */
+      color: #fff; /* Beyaz metin */
+    }
+
+    header {
+      position: relative;
+      background-color: white;
+      padding: 100px 20px 100px 20px;
+      text-align: center;
+      overflow: hidden;
+      color: #000;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 6em; /* Çok büyük başlık */
+      color: #8B0000;
+      font-family: 'Orbitron', sans-serif;
+      position: relative;
+      z-index: 2;
+      letter-spacing: 5px;
+    }
+
+    header .bg-text {
+      font-family: 'Parisienne', cursive;
+      font-size: 5em; /* Büyük ve kaplayacak */
+      color: #8B0000; /* Başlıkla aynı koyu kırmızı */
+      position: absolute;
+      top: 30px;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 1;
+      text-align: center;
+      white-space: nowrap;
+      opacity: 1; /* Soluk değil */
+      pointer-events: none;
+      user-select: none;
+      letter-spacing: 10px;
+    }
+
+    header p {
+      color: #444;
+      font-style: italic;
+      z-index: 2;
+      position: relative;
+      margin-top: 10px;
+      font-size: 1.2em;
+    }
+
+    nav {
+      text-align: center;
+      margin-top: 10px;
+    }
+
+    nav a {
+      color: #f2f2f2;
+      margin: 0 15px;
+      text-decoration: none;
