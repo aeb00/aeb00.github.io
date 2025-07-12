@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Fatih Terim - Zaman Çizelgesi</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Ubuntu&display=swap" rel="stylesheet" />
+
+  <style>
+    body {
+      margin: 0;
+      background-color: #000;
+      color: white;
+      font-family: 'Ubuntu', sans-serif;
+    }
+    header {
+      background-color: white;
+      color: #8B0000;
+      text-align: center;
+      padding: 80px 20px;
+    }
+    header h1 {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 4em;
+      margin: 0;
+    }
+    nav {
+      text-align: center;
+      background-color: #111;
+      padding: 10px 0;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.1em;
+    }
+    .timeline {
+      max-width: 700px;
+      margin: 40px auto;
+      position: relative;
+      padding-left: 20px;
+      border-left: 3px solid #8B0000;
+    }
+    .event {
+      margin-bottom: 30px;
+      position: relative;
+    }
+    .event::before {
+      content: '';
+      position: absolute;
+      left: -12px;
+      top: 5px;
+      width: 20px;
+      height: 20px;
+      background-color: #8B0000;
+      border-radius: 50%;
+      border: 3px solid white;
+    }
+    .event h3 {
+      margin: 0 0 5px 0;
+      font-weight: bold;
+      font-size: 1.3em;
+      color: #8B0000;
+    }
+    .event time {
+      font-size: 0.9em;
+      color: #ccc;
+      display: block;
+      margin-bottom: 8px;
+    }
+    .event p {
+      margin: 0;
+      line-height: 1.6;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+      color: #aaa;
+      background-color: #111;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Fatih Terim - Zaman Çizelgesi</h1>
+  </header>
+
+  <nav>
+    <a href="index.html">Anasayfa</a>
+    <a href="hakkinda.html">Hakkında</a>
+    <a href="kariyer.html">Kariyer</a>
+    <a href="sozleri.html">Sözleri</a>
+    <a href="galeri.html">Galeri</a>
+    <a href="istatistik.html">İstatistik</a>
+    <a href="zaman-cizelgesi.html">Zaman Çizelgesi</a>
+  </nav>
+
+  <div class="timeline">
+    <div class="event">
+      <h3>1953 - Doğum</h3>
+      <time>4 Eylül 1953</time>
+      <p>Fatih Terim, Adana'da doğdu.</p>
+    </div>
+
+    <div class="event">
+      <h3>1969 - Profesyonel Futbol Başlangıcı</h3>
+      <time>1969</time>
+      <p>Adanaspor’da profesyonel futbol kariyerine başladı.</p>
+    </div>
+
+    <div class="event">
+      <h3>1974 - Galatasaray’a Transfer</h3>
+      <time>1974</time>
+      <p>Galatasaray’a transfer oldu ve 11 yıl futbol oynadı.</p>
+    </div>
+
+    <div class="event">
+      <h3>1985 - Futbolculuk Kariyerinin Sonu</h3>
+      <time>1985</time>
+      <p>Aktif futbolculuk kariyerini noktaladı.</p>
+    </div>
+
+    <div class="event">
+      <h3>1993 - Türkiye Milli Takımı Teknik Direktörü</h3>
+      <time>1993</time>
+      <p>Türkiye A Milli Takımı’nın teknik direktörü oldu.</p>
+    </div>
+
+    <div class="event">
+      <h3>2000 - UEFA Kupası Zaferi</h3>
+      <time>2000</time>
+      <p>Galatasaray’la UEFA Kupası’nı kazandı.</p>
+    </div>
+
+    <div class="event">
+      <h3>2008 - EURO 2008 Yarı Finali</h3>
+      <time>2008</time>
+      <p>Türkiye’yi EURO 2008’de yarı finale taşıdı.</p>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 | Hazırlayan: Alieren Buz | Bu site resmi değildir.
+  </footer>
+</body>
+</html>
